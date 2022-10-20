@@ -1,0 +1,60 @@
+body{
+    background-image: url("background.webp");
+    background-size:cover;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    color: white;
+    
+}
+.logo{
+    height: 110px;
+}
+.buttons{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 35px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.butvai{
+    width: 80px;
+    height: 35px;
+    margin-right: 12px;
+    color: #fbfcfd;
+    background: transparent;
+    border: 1px solid #fbfcfd;
+    border-radius: inherit !important;
+}    
+
+.signin{
+    width: 80px;
+    height: 35px;
+    margin: 0px 10px;
+    background: #fbfcfd;
+    color: #040302;
+    border-radius: inherit !important;
+}
+.welcome{
+    margin-left: 20px;
+}
+.heading{
+    margin-top: 140px;
+    margin-bottom: 0px;
+    color:#fbfcfd ;
+    font-size: 120px;
+}
+
+.check{
+    color: #fbfcfd;
+    background: transparent;
+    width: 600px;
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 50px;
+    border: 7px solid #fbfcfd;
+    margin-top: 10px;
+}
